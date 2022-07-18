@@ -1,0 +1,23 @@
+{   
+"transaction_data" : "C:\\Users\\risha\\OneDrive\\Desktop\\DS\\Project - Innodatatics\\Client work\\daily.csv",
+"pfilter" : "ULTIMA GOLD TIG GAUNTLET",
+"col_filter" : ["Customer_Type","Invoice_Date","Qty_Sold","Net_Price_Per_Unit","Gross_Revenue"],
+"datecolumn" : "Invoice_Date",
+"customertypecol" : "Customer_Type",
+"qtycolumn" : "Qty_Sold",
+"netrevenuecol" : "Gross_Revenue",
+"customerfilter" : "Non-Corporate Accounts",
+"dropcols" : ["Net_Price_Per_Unit","Gross_Revenue","Net_Revenue"],
+"final_data" : "C:\\Users\\risha\\OneDrive\\Desktop\\DS\\Project - Innodatatics\\Client work\\data.xlsx",
+"predict_till_date" : "2018-12-09" ,
+"order": [2,0,2],
+"freq" : "M",
+"seasonal_order" : [2, 0, 1, 4] ,
+"enforce_stationarity" : false,
+"enforce_invertibility" : false,
+"predict_from_date" : "2017-01-15",
+"exog_validation" : "",
+"print_summary" : false,
+"sig" : 0.05,
+"autolag" : "AIC"
+}  
