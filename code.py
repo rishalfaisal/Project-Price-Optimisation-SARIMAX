@@ -206,7 +206,7 @@ if __name__ == "__main__":
         #cg - {'order': (2, 2, 0), 'seasonal_order': (2, 2, 0, 12)} aic = 355.91792954348546
         #After log {'order': (2, 0, 1), 'seasonal_order': (0, 2, 1, 12)}
         #powell - {'order': (0, 2, 1), 'seasonal_order': (0, 2, 1, 12)} = 8.0
-        #basinhopping -
+        
         
     find_optimal_params(df_weekly1log)
     
